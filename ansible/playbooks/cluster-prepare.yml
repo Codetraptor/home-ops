@@ -24,7 +24,7 @@
           ansible.builtin.blockinfile:
             path: /etc/hosts
             block: |
-              127.0.1.1   {{ inventory_hostname }}
+              127.0.1.1   {{ inventory_hostname }} localhost
     - name: Packages | Fedora
       block:
         - name: Packages | Install required packages

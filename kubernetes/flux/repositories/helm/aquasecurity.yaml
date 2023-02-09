@@ -5,5 +5,5 @@ metadata:
   name: aquasecurity
   namespace: flux-system
 spec:
-  interval: 1m0s
+  interval: 1m
   url: https://aquasecurity.github.io/helm-charts
